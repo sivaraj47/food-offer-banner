@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>food offer banner</title>
+<style>
+.bx{
+  display:flex;
+  flex-wrap:wrap;
+}
+h2,h1,h6{
+  margin:10px;
+}
+.food{ display: flex;
+    padding: 20px;
+    background: #ddfbffdd;
+    width: 600px;
+    height: 190px;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+  
+}
+.imgbox{
+  object-fit: cover;
+    width: 300px;
+    position: absolute;
+    right: -40px;
+    top: 20px;
+    overflow: hidden;
+}
+@media(max-width:768px){
+  .food {
+    display: flex;
+    padding: 20px;
+    background: #ddfbffdd;
+    width: 600px;
+    height: 200px;
+    flex-direction: column;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+  h2,h1,h6{
+  margin:0px;
+}
+  .imgbox {
+    object-fit: cover;
+    width: 300px;
+    position: absolute;
+    right: -100px;
+    top: 60px;
+    overflow: hidden;
+}
+}
+</style>
+  </head>
+  <body>
+
+<div class="bx">
+<div class="food">
+ <h2> 20% off<h2>
+<h1>Fruits & Vegetables<h1>
+  <h6>Shop Collection</h6>  
+  <a href="https://ibb.co/xSf3PQTS"><img src="https://i.ibb.co/d0L71yY0/bug.png" alt="bug" border="0" class="imgbox"></a>
+</div></div>
+ 
+  </body>
+</html>
